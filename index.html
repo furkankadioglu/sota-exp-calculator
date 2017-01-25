@@ -46,7 +46,7 @@
     <div class="jumbotron">
       <div class="container">
         <h1>Hello!</h1>
-        <p>This is a free Shroud Of The Avatar Player Tool for Experience Calculate. Before you start please look <a href="BURAYAEXCELLINKI">this</a> table and look your target skill experience.</p>
+        <p>This is a free Shroud Of The Avatar Player Tool for calculating the needed experience points for your target level. Before you start, please have a look at <a href="BURAYAEXCELLINKI">this</a> table and check your target skill experience for the needed amount.</p>
       </div>
     </div>
     <div >
@@ -66,14 +66,14 @@
           <h4>Your Skill to 100 Level Exp:</h4>
           <input type="text" ng-model="LevelExp" ng-change="calculate()" class="form-control" value="1212424">
 
-           <h4>Every Level Experience Multifier:</h4>
+           <h4>Every Level Experience Multiplier:</h4>
           <input type="text" ng-model="LevelMultifier" ng-change="calculate()" class="form-control" value="1.1">
         </div>
       
         <div class="col-md-4">
           <h2>Results</h2>
           <br>
-          <i>(Warning: Pay attention! This results are estimated.)</i>
+          <i>(Warning: Pay attention! These results are estimated only.)</i>
           <br>
           <h4>Your Level Difference:</h4>
           <span>{{ levelDifference }}</span>
@@ -84,10 +84,10 @@
           <h4>Your Current Experience:</h4>
           <span>{{ currentExp }}</span>
 
-          <h4>Your Need Experience to Goal Level:</h4>
+          <h4>Total Experience needed for Target Level:</h4>
           <span>{{ currentExpNeed }}</span>
 
-          <h4>Your Goal Percent:</h4>
+          <h4>Target Completion Percent:</h4>
           <span>{{ currentGoalPercent }}%</span>
         </div>
       </div>
